@@ -1,0 +1,107 @@
+html {
+    width: 1333px;
+}
+
+body {
+    background-color: burlywood;
+    width: 1333px;
+}
+
+#mapa {
+    text-align: center;
+    position: relative;
+}
+
+#mapa img {
+    border: solid 3px rgb(99, 36, 36);
+    z-index: 1;
+}
+
+button {
+    font-size: 30px;
+    position: absolute;
+    z-index: 0;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+button:hover {
+    font-size: 35px;
+}
+
+#stark {
+    top: 50px;
+    left: 660px;
+}
+
+#targaryen {
+    top: 110px;
+    left: 485px;
+}
+
+#baratheon {
+    top: 160px;
+    right: 560px;
+}
+
+#arryn {
+    top: 240px;
+    left: 460px;
+}
+
+#lannister {
+    top: 250px;
+    right: 630px;
+}
+
+#greyjoy {
+    top: 370px;
+    left: 450px;
+}
+
+#tully {
+    top: 420px;
+    left: 565px;
+}
+
+#tyrell {
+    top: 450px;
+    right: 620px;
+}
+
+#bolton {
+    top: 555px;
+    left: 470px;
+}
+
+#martell {
+    top: 790px;
+    left: 460px;
+}
+
+#caceres {
+    top: 700px;
+    left: 630px;
+}
+
+#badajoz {
+    top: 830px;
+    left: 740px;
+}
+
+#tarjeta {
+    width: 280px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: solid 2px saddlebrown;
+}
+
+#tarjeta img {
+    width: 150px;
+    border: none;
+}
